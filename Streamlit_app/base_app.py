@@ -21,6 +21,8 @@ import matplotlib.style as style
 import pickle
 import re
 from textblob import TextBlob
+#import nltk
+#nltk.download('punkt_tab')
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
 from nltk.corpus import stopwords
@@ -115,7 +117,7 @@ def main():
 
 	# Building out the predication page
 	if selection == "Prediction":
-		st.info("Prediction with ML Models")
+		st.info("Prediction with ML Model")
 		# Creating a text box for user input
 		tweet_text = st.text_area("Enter Text","Type Here")
 		cleaned_tweet= processed_tweet(tweet_text)
