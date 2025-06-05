@@ -7,16 +7,18 @@ This project uses machine learning to classify climate change-related tweets int
 ## Project structure
 
 **Classification notebook folder**
+
 Contains the main notebook responsible for:
-> Loading the dataset
-> Preprocessing the data
-> Training and evaluating the classification model
+- Loading the dataset
+- Preprocessing the data
+- Training and evaluating the classification model
 
 **Streamlit app folder**
+
 Includes:
-> The base code for the Streamlit web application
-> A saved model used by the app
-> Any additional resources required to run the app (e.g., images, config files)
+- The base code for the Streamlit web application
+- A saved model used by the app
+- Any additional resources required to run the app
 
 ## How to Run the App Locally
 
@@ -59,8 +61,10 @@ Your default browser should automatically open the app at http://localhost:8501.
 
 ## Next Steps & Recommendations
 
-**>Model Improvements:**
+**- Model Improvements:**
+
 The current model used in the app is a baseline. We should replace it with the highest-performing version from the classification notebook for improved accuracy.
 
-**>Cloud Deployment:**
+**- Cloud Deployment:**
+
 Hosting the app on a cloud server (like AWS EC2) allows anyone to access it without running commands locally.
